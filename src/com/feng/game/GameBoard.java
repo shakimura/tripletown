@@ -25,7 +25,8 @@ public class GameBoard extends JPanel implements Runnable {
 	private MailBox mb;
 	private Piece p;
 	private BufferedImage bg;
-	Thread t = new Thread(this);
+	Thread t = new Thread(this);
+	
 	public GameBoard(MailBox mb) {
 		setPreferredSize(new Dimension(WIDTH, HEIGHT));
 //		setBackground(Color.WHITE);
